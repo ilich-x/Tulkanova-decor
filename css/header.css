@@ -34,7 +34,7 @@
 	font-weight: normal;
 	font-size: 8em;
 	padding-left: 10px;
-	text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+	text-shadow: 2px 2px 4px rgba(0,0,0,1.8);
 }
 
 .demo-2 .main-title::before {
