@@ -7,7 +7,7 @@
         <title>Мастерская Александры Тюлькановой "Tulkanova dekor"</title>
         <meta name="description" content="Сделаем вашу свадьбу незабываемой!" />
         <meta name="keywords" content="wedding, flower, свадьба, оформление, декоратор, флорист, мастер, дизайн, #tyulkanovadecor" />
-        <meta name="author" content="Ilay" />
+        <meta name="author" content="Ilay (nazarov.i.e@mail.ru)" />
         <!-- <link rel="shortcut icon" href="../favicon.ico"> -->
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -29,6 +29,7 @@
       </div>
 		</div>
 <!-- main content -->
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?132"></script>
 		<section class="main">
 			<h1 class="myh">Дорогие жених и невеста!</h1>
 				<p class="describe">Свадебный день - это один из самых важных дней в Вашей жизни. Так позвольте же себе и своим близким насладиться им сполна! Вместе мы организуем такую свадьбу, о которой мечтали именно Вы!
@@ -182,7 +183,7 @@
 								<span class="vk"> </span>
 							</div>
 							<div class="cnt-right">
-								<p>	<a   href="http://vk.com/tyulkanovadecor"> Tulkanova Dekor</a></p>
+								<p>	<a   href="https://vk.com/im?media=&sel=-111678913">Напишите нам в ВК</a></p>
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -215,26 +216,37 @@
 					</div>
 				</div>
 				<div class="col-md-6 contact-left">
-					<h3 class="header_contact" >Оставьте заявку</h3>
-					<form method="POST" id="feedback-form">
+					<h3 class="header_contact" >Наша группа Вконтакте</h3>
+					<!-- VK Widget -->
+					<div id="vk_groups" class="contact-right-bottom"></div>
+					<script type="text/javascript">
+					VK.Widgets.Group("vk_groups", {mode: 2, width: "500", height: "450", color1: 'FFFFFF', color2: '000000', color3: '5E81A8'}, 111678913);
+					</script>
+					<!-- <form method="POST" id="feedback-form">
 					<div class="contact-right-bottom">
 						<input type="text" placeholder="Ваше Имя" required />
 						<input  type="text" pattern="[0-9]{10,11}" placeholder="(123) 456-78-90" required />
 						<input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="E-mail@domain.com" required />
 						<textarea placeholder="Сообщение"></textarea>
-						<div class="contact-but">
+						<div class="contact-but"> -->
 
 									<!-- <button class="action"  type="submit" >Отправить</button> -->
-										<input type="submit" value="" />
+										<!-- <input type="submit" value="" />
 
 						</div>
 					</div>
-				</form>
+				</form> -->
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
+
+	<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 48229909, {});
+</script>
 <!-- footer -->
 		<footer>
 			2016 &copy; Tulkanova Decor
