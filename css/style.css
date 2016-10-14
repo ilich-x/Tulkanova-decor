@@ -159,7 +159,7 @@ color: #000;
 	margin-top: 0 !important;
 }
 
-.cnt-right p a:hover{
+/*.cnt-right p a:hover{
 	color:#c5b257 !important;
 	text-decoration:none;
 	transition: 0.5s all;
@@ -167,7 +167,7 @@ color: #000;
   	-moz-transition: 0.5s all;
   	-o-transition: 0.5s all;
   	-ms-transition: 0.5s all;
-}
+}*/
 .contact-left-bottom{
 	margin-top:3em;
 }
@@ -179,62 +179,13 @@ color: #000;
 	width:91%;
 	float:right;
 }
-.contact-right-bottom{
-	margin-top:2.4em;
-}
 
 .header_contact {
 	color: #666666;
 }
-.contact-left input[type="text"]  {
-  	width: 100%;
-  	color: #000000;
-  	background: #fff;
-  	outline: none;
-  	font-family: 'Roboto', sans-serif;
-  	font-size: 15px;
-  	border: 1px solid #000000;
-  	padding: 10px 1.3em;
-  	margin-bottom: 1em;
-  	-webkit-appearance: none;
-  	letter-spacing:1px;
-}
-.contact-left textarea {
-  resize: none;
-  width: 100%;
-  color: #000000;
-  font-size: 15px;
-  background: #fff;
-  outline: none;
-  font-family: 'Roboto', sans-serif;
-  padding: 10px 1.3em;
-  border: none;
-  min-height: 8em;
-  border: 1px solid #000000;
-  -webkit-appearance: none;
-  letter-spacing:1px;
-}
+
 .contact-but{
 	margin-top:1.2em;
-}
-.contact-but  input[type="submit"] {
-  	border: none;
-  	outline: none;
-  	color: #fff;
-  	width: 100%;
-  	background: url(../img/msg.png) no-repeat 50% 13px #323232;
-  	padding: 0px 0px;
-  	font-size: 30px;
-  	font-weight: 400;
-  	-webkit-appearance: none;
-}
-.contact-but  input[type="submit"]:hover{
-	background: url(../img/msg.png) no-repeat 50% 13px #c5b257;
-	transition:0.6s all;
-	-webkit-transition:0.6s all;
-	-moz-transition:0.6s all;
-	-o-transition:0.6s all;
-	-ms-transition:0.6s all;
 }
 
 footer {
