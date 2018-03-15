@@ -2,11 +2,11 @@ $(function() {
 
 //Настраиваем instafeed
     var feed = new Instafeed({
-      // clientId: '4119253ff7c54237bdba3d7b67bb1713',
+      // clientId: '',
         		target: 'instafeed',
         		get: 'user',
-      		userId: 215682317,
-       	accessToken: '215682317.4119253.16c8867cab1a4fafaf7f67a2b620a38c',
+      		userId: ,
+       	accessToken: '',
       		useHttp: true,
         clientId: '',
         target: 'instafeed',
